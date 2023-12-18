@@ -1,0 +1,28 @@
+.BlogCard{
+   margin: 16px;
+   padding: 16px;
+   box-sizing: border-box;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px #ccc;
+   background-color: lightblue;
+}
+@media (min-width: 992px){
+    .BlogCard{
+        width: 45%;
+        display: inline-block;
+    }
+}
+
+.BlogCard > button{
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #215f06;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 2px 5px #ccc;
+}
