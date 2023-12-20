@@ -9,7 +9,8 @@
 @media (min-width: 992px){
     .BlogCard{
         width: 45%;
-        height: 300px;
+        height: 350px;
+        /* display:list-item; */
     }
 }
 
@@ -33,4 +34,13 @@
     font-size: 24px;
     font-weight: bold;
     color: #215f06;
+}
+
+.description{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #215f06;
+    text-align: justify;
 }

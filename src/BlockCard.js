@@ -14,8 +14,8 @@ class BlogCard extends Component {
         return (
             <div className={classes.BlogCard}>
                 <h1>{this.props.title}</h1>
-                <h2> </h2>
-                {this.props.description}
+                <h3>{this.props.author}</h3>
+                <p className={classes.description}>{this.props.description}</p>
                 <br/>
                 <br/>
                  Likes: <span className={classes.likeCount}>{this.state.likeCount}</span>
