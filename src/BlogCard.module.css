@@ -9,7 +9,7 @@
 @media (min-width: 992px){
     .BlogCard{
         width: 45%;
-        display: inline-block;
+        height: 300px;
     }
 }
 
@@ -25,4 +25,12 @@
     font-weight: bold;
     color: white;
     box-shadow: 0 2px 5px #ccc;
+}
+
+.BlogCard > h1{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #215f06;
 }

@@ -13,14 +13,14 @@ class BlogCard extends Component {
     render(){
         return (
             <div className={classes.BlogCard}>
-                <h1>Blog Title: {this.props.title}</h1>
-                <h2>Blog Description:</h2>
+                <h1>{this.props.title}</h1>
+                <h2> </h2>
                 {this.props.description}
                 <br/>
-                Like Count: <span className={classes.likeCount}>{this.state.likeCount}</span>
+                <br/>
+                 Likes: <span className={classes.likeCount}>{this.state.likeCount}</span>
                 <br/>
                 <button onClick={this.onButtonLike.bind(this)}>Like</button>
-
             </div>
         )
     }
